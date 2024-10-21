@@ -1,0 +1,57 @@
+body{
+    max-width:1000px;
+    margin:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(40, 40, 40);
+    background-color:1px solid rgb(220, 220, 220);
+}
+#section-profil{
+    display:flex;
+    align-items: center;
+}
+#section-profil img{
+    width:300px;
+    height: 200px;
+    border-radius: 50%;
+    box-sizing:border-box;
+    padding: 0px 50px;
+}
+#profil h2{
+    margin:10px 0px 0px 0px;
+    padding:0px;
+}
+#profil p{
+    text-shadow: 0px 0px 1px black;
+}
+.simple{
+    margin:0px;
+}
+#content{
+    padding: 25px 0px;
+}
+.line{
+    width:60%;
+    height: 1px;
+    margin: auto;
+    background-color: rgb(120, 120, 120);
+}
+.titre{
+    text-decoration: underline;
+    color: rgb(20, 20, 20);
+}
+#academique ul{
+    padding-left: 15px;
+}
+#academique ul li{
+    list-style-type: none;
+}
+#content ul li{
+    color: rgb(25, 25, 25);
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    text-shadow: 0px 0px 1px rgb(20, 20, 20);
+}
+#content div h3{
+    letter-spacing: 2px;
+    font-size: 1.25em;
+}
